@@ -1,0 +1,97 @@
+/* shared css */
+
+.body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.bg-primary {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.bg-secondary {
+    background-color: #111010;
+}
+
+.color-primary{
+    color:#E55473;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color:white;
+    padding: 16px 32px;
+    border:0;
+    
+}
+
+/* header section  */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 150px 0px 150px;
+    
+}
+
+.header-text {
+    max-width: 600px;
+}
+
+.header-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800px;
+    margin-bottom: 24px;
+}
+
+.header-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.header-pic {
+    width: 500px;
+    height: 600px;
+}
+
+
+.hotdeal-container {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap:150px;
+    padding: 70px 300px 70px 250px;
+    
+}
+
+.hotdeal-text {
+    max-width: 600px;
+    text-align: center;
+}
+
+.hotdeal-title {
+    color: #272727;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.hotdeal-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+
+.hotdeal-pic {
+    width: 250px;
+    height: 350px;
+}
