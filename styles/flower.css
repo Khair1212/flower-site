@@ -61,6 +61,7 @@
     height: 600px;
 }
 
+/* Hot deal Section */
 
 .hotdeal-container {
     margin-top: 100px;
@@ -76,14 +77,14 @@
     text-align: center;
 }
 
-.hotdeal-title {
+.section-title {
     color: #272727;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
 
-.hotdeal-desc {
+.section-desc {
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     font-weight: 400;
@@ -94,4 +95,121 @@
 .hotdeal-pic {
     width: 250px;
     height: 350px;
+}
+
+
+/* Instragram */
+
+.ins-container{
+    margin-top:100px;
+    padding: 0px 150px ;
+}
+
+.ins-title{
+    text-align: center;
+    color: #272727;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.ins-info{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+    padding:0px 350px;
+    text-align: center;
+}
+
+/* .ins-item{
+    width:100px;
+    height:120px;
+    flex-shrink: 0;
+} */
+
+.ins-gallery{
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    
+}
+
+
+/* subscription styles */
+
+.subscription-container{
+    margin: 100px 150px 0 150px ;
+    background: url("../Flower Asset/Rectangle 9.png");
+    
+    background-size: auto;
+}
+
+.subscribe{
+    padding: 100px 250px;
+}
+
+.subs-title{
+    text-align: center;
+    color: #272727;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.subs-desc{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.subs-form{
+    text-align: center;
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+
+.subs-form input[type="email"]{
+    width:65%;
+    padding: 16px;
+}
+
+.subs-form input[type="submit"]{
+    width:30%;
+}
+
+/* Footer Styles */
+
+.footer-section{
+    background: #111010;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-container{
+    padding: 80px 400px;
+}
+
+.footer-heading{
+    color: #ffff;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.footer-desc{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.footer-rights{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
 }
