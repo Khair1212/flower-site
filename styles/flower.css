@@ -61,6 +61,103 @@
     height: 600px;
 }
 
+/* Welcome Section */
+
+.welcome-container{
+    margin: 100px 150px 0px 150px;
+    padding: 50px;
+    text-align: center;
+}
+
+.welcome-header{
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800px;
+    margin-bottom: 24px;
+}
+
+.discount{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800px;
+    
+}
+
+/* Featured Section Styles */
+
+.featured-container{
+    margin-top: 100px;
+    /* height: 100px; */
+    /* font-size: 40px;
+    font-weight: 700; */
+}
+
+.featured-container h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #272727;
+    margin-bottom: 24px;
+    margin-top: 178px;
+}
+.featured-container p{
+    text-align: center;
+    width: 594px;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+.featured-images{
+    display: flex;
+    justify-content: center;
+}
+.box {
+    width: 330px;
+    height: 400px;
+    border-radius: 300px 300px 0 0;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-size: 250px 320px;
+    background-position: bottom;   
+    margin-right: 24px;
+}
+
+.box1 {
+    background-image: url('../Flower Asset/pngwing 6.png');
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.box2 {
+    background-image: url('../Flower Asset/pngwing 5.png');
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.box3 {
+    background-image: url('../Flower Asset/pngwing 7.png');
+    background-color: rgba(71, 125, 17, 0.15);
+}
+/* .flower p {
+    padding-top: 32px;
+    text-decoration: underline;
+    
+} */
+.name{
+    display: flex;
+    /* gap:20px; */
+    justify-content: space-around;
+    padding-top: 32px;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
 /* Hot deal Section */
 
 .hotdeal-container {
